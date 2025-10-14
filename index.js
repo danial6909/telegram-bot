@@ -2044,7 +2044,7 @@ const fs = require("fs");
 const path = require("path");
 
 // 🔑 توکن ربات شما
-const token = process.env.BOT_TOKEN;
+const token = process.env.BOT_TOKE;
 const bot = new TelegramBot(token, { polling: true });
 
 // 📚 داده‌های بازی و آزمون
